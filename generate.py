@@ -20,9 +20,9 @@ with open("output.txt", "w") as text_file:
             next = content[x+1]
         current = content[x]
 
-        cSentence = cSentence + current
+        cSentence += current
         if current == "." or current == "%":
-            numberSentencesToIgnore = numberSentencesToIgnore - 1
+            numberSentencesToIgnore -= 1
             if numberSentencesToIgnore < 0:
                 if len(cSentence) > 4:
                     text_file.write(cSentence + "\n")
