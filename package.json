@@ -1,0 +1,19 @@
+{
+  "name": "winelabels",
+  "version": "1.0.0",
+  "description": "Wine label text generator",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no tests\" && exit 1",
+    "start": "babel-node ./web.js"
+  },
+  "author": "Matt Howlett",
+  "license": "GNU Affero General Public License",
+  "dependencies": {
+    "express": "^3.0",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {    
+    "babel": "4.7.16"
+  }
+}

@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    link(href='https://fonts.googleapis.com/css?family=Allura' rel='stylesheet' type='text/css')
+  
+  body(style="background-color: #fff8eb")
+    div(style="margin-left: auto; margin-right: auto; width: 700px; font-family: Allura; font-size: 48px; margin-top: 25px; text-align: center;") Wine of the Day
+    div(style="width: 700px; margin-top: 60px; margin-left: auto; margin-right: auto;")
+      img(src="/static/bottle.png" width="200")
+      div(style="display: inline-block; width: 399px; vertical-align: top; align: left; font-family: arial; margin-top: 15px; position: relative")
+        div(style="font-size: larger; font-weight: bold; margin-bottom: 8px;")
+         = vinyard + ' '
+         | -
+         = ' ' + variety 
+        span= content
+        div(style="margin-top: 15px;")
+          div(style="font-weight: bold;") 
+            span $
+            span= price
+          span(style="font-size: smaller;") per bottle
+        div(style="margin-top: 15px;")
+          a(href="/buy-now") Buy now
+        div(style="position: absolute; right: 10px; top: 350px;")
+          a(href="/") another
