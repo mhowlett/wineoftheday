@@ -1,2 +1,2 @@
 
-Live version at: (wineoftheday.mhowlett.com)[http://wineoftheday.mhowlett.com]
+Live version at: [wineoftheday.mhowlett.com](http://wineoftheday.mhowlett.com)
